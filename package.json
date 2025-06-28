@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "live-server --port=3000 --open=/index.html",
     "start": "live-server --port=3000 --open=/index.html",
-    "build": "echo 'Build completed'",
+    "build": "echo 'Build completed - Static HTML site'",
     "preview": "live-server --port=3000 --open=/index.html"
   },
   "keywords": [
