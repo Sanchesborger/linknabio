@@ -1,0 +1,25 @@
+{
+  "name": "linknabio",
+  "version": "1.0.0",
+  "description": "Página de links da bio - Sanches Borges",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/index.html",
+    "start": "live-server --port=3000 --open=/index.html",
+    "build": "echo 'Build completed'",
+    "preview": "live-server --port=3000 --open=/index.html"
+  },
+  "keywords": [
+    "bio",
+    "links",
+    "portfolio",
+    "designer",
+    "desenvolvedor"
+  ],
+  "author": "Sanches Borges",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {}
+} 

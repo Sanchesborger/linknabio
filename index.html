@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanches Borges | Designer & Desenvolvedor</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Inter', sans-serif;
+background-color: #1C1C1C;
+color: #F5F5F5;
+min-height: 100vh;
+}
+.profile-container {
+animation: fadeIn 0.8s ease-in-out;
+}
+.action-button {
+transition: all 0.3s ease;
+border: 1px solid rgba(196, 126, 60, 0.2);
+}
+.action-button:hover {
+border-color: rgba(196, 126, 60, 0.4);
+box-shadow: 0 4px 20px rgba(196, 126, 60, 0.1);
+}
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(10px); }
+to { opacity: 1; transform: translateY(0); }
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+</style>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#C47E3C',secondary:'#1C1C1C'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+</head>
+<body class="flex flex-col items-center justify-center p-4 md:p-6">
+<div class="profile-container w-full max-w-md flex flex-col items-center justify-center py-8 px-4 md:px-6">
+<div class="relative w-full h-[500px] mb-8 overflow-hidden rounded-2xl">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/70 to-secondary"></div>
+<img src="https://static.readdy.ai/image/554d26e9b3e1674f7e5d13ac22a02538/70bd14244870d950cc68c4b370f953dd.jfif"
+alt="Sanches Borges"
+class="w-full h-full object-cover">
+<div class="absolute bottom-0 left-0 right-0 p-8 text-center">
+<div class="bg-secondary/30 backdrop-blur-sm rounded-xl p-6 mx-auto max-w-lg">
+<h1 class="text-2xl font-semibold text-primary mb-1">Sanches Borges</h1>
+<p class="text-sm text-gray-300 max-w-xs mx-auto">Transformando ideias em experiências digitais</p>
+</div>
+</div>
+</div>
+<!-- Botões de Ação -->
+<div class="w-full space-y-4 mb-8">
+<a href="#" class="action-button w-full flex items-center p-5 rounded-xl !rounded-button whitespace-nowrap backdrop-blur-sm bg-secondary/40 hover:bg-secondary/60 group">
+<div class="w-12 h-12 flex items-center justify-center mr-5 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl shadow-inner">
+<i class="ri-global-line text-primary ri-xl group-hover:scale-110 transition-transform"></i>
+</div>
+<div class="flex flex-col items-start">
+<span class="font-semibold text-gray-100">Visite meu site</span>
+<span class="text-xs text-gray-400 mt-1">Conheça mais sobre meu trabalho</span>
+</div>
+<i class="ri-arrow-right-line ml-auto text-primary opacity-0 group-hover:opacity-100 transform translate-x-0 group-hover:translate-x-1 transition-all"></i>
+</a>
+<a href="#" class="action-button w-full flex items-center p-5 rounded-xl !rounded-button whitespace-nowrap backdrop-blur-sm bg-secondary/40 hover:bg-secondary/60 group">
+<div class="w-12 h-12 flex items-center justify-center mr-5 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl shadow-inner">
+<i class="ri-smartphone-line text-primary ri-xl group-hover:scale-110 transition-transform"></i>
+</div>
+<div class="flex flex-col items-start">
+<span class="font-semibold text-gray-100">Aplicativos & Sistemas</span>
+<span class="text-xs text-gray-400 mt-1">Projetos desenvolvidos</span>
+</div>
+<i class="ri-arrow-right-line ml-auto text-primary opacity-0 group-hover:opacity-100 transform translate-x-0 group-hover:translate-x-1 transition-all"></i>
+</a>
+<a href="#" class="action-button w-full flex items-center p-5 rounded-xl !rounded-button whitespace-nowrap backdrop-blur-sm bg-secondary/40 hover:bg-secondary/60 group">
+<div class="w-12 h-12 flex items-center justify-center mr-5 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl shadow-inner">
+<i class="ri-palette-line text-primary ri-xl group-hover:scale-110 transition-transform"></i>
+</div>
+<div class="flex flex-col items-start">
+<span class="font-semibold text-gray-100">Ver Portfólio</span>
+<span class="text-xs text-gray-400 mt-1">Galeria de artes digitais</span>
+</div>
+<i class="ri-arrow-right-line ml-auto text-primary opacity-0 group-hover:opacity-100 transform translate-x-0 group-hover:translate-x-1 transition-all"></i>
+</a>
+<a href="#" class="action-button w-full flex items-center p-5 rounded-xl !rounded-button whitespace-nowrap backdrop-blur-sm bg-secondary/40 hover:bg-secondary/60 group">
+<div class="w-12 h-12 flex items-center justify-center mr-5 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl shadow-inner">
+<i class="ri-brain-line text-primary ri-xl group-hover:scale-110 transition-transform"></i>
+</div>
+<div class="flex flex-col items-start">
+<span class="font-semibold text-gray-100">Como posso te ajudar?</span>
+<span class="text-xs text-gray-400 mt-1">Entre em contato</span>
+</div>
+<i class="ri-arrow-right-line ml-auto text-primary opacity-0 group-hover:opacity-100 transform translate-x-0 group-hover:translate-x-1 transition-all"></i>
+</a>
+</div>
+<!-- Redes Sociais -->
+<div class="flex space-x-4 mb-8">
+<a href="https://www.instagram.com/sanchesborgesdesigner/" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full border border-primary/30 hover:bg-primary/10 transition-all">
+<i class="ri-instagram-line text-primary"></i>
+</a>
+<a href="https://www.linkedin.com/in/sanches-borges-621873b0/" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full border border-primary/30 hover:bg-primary/10 transition-all">
+<i class="ri-linkedin-line text-primary"></i>
+</a>
+<a href="https://github.com/Sanchesborger" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full border border-primary/30 hover:bg-primary/10 transition-all">
+<i class="ri-github-line text-primary"></i>
+</a>
+</div>
+<!-- Rodapé -->
+<div class="text-center mt-8">
+<p class="text-sm text-gray-400 max-w-xs">
+"Designer e Dev apaixonado por criar soluções que conectam pessoas e ideias."
+</p>
+<p class="text-xs text-gray-500 mt-4">© 2025 Sanches Borges. Todos os direitos reservados.</p>
+</div>
+</div>
+<script id="animationScript">
+document.addEventListener('DOMContentLoaded', function() {
+const buttons = document.querySelectorAll('.action-button');
+buttons.forEach((button, index) => {
+button.style.animationDelay = `${0.1 + (index * 0.1)}s`;
+button.style.animation = 'fadeIn 0.5s ease-in-out forwards';
+button.style.opacity = '0';
+setTimeout(() => {
+button.style.opacity = '1';
+}, 100 + (index * 100));
+});
+});
+</script>
+</body>
+</html> 
